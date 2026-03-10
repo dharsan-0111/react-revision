@@ -7,6 +7,8 @@ import ProtectedRoute from './layouts/ProtectedRoute'
 import LoginPage from './pages/LoginPage'
 import Accordian from './components/accordian/Accordian'
 import NestedComments from './components/comments/NestedComments'
+import ImageSlider from './components/imageslider/ImageSlider'
+import PaginatedComponent from './components/pagination/PaginatedComponent'
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/accordian" element={<Accordian />} />
           <Route path="/nested-comments" element={<NestedComments />} />
+          <Route path="/image-slider" element={<ImageSlider />} />
+          <Route path="/pagination" element={<PaginatedComponent />} />
         </Route>
       </Routes>
     </>

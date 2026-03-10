@@ -16,6 +16,8 @@ const Header = () => {
         <Link to="/about" className="text-white">About</Link>
         <Link to="/accordian" className="text-white">Accordian</Link>
         <Link to="/nested-comments" className="text-white">Nested Comments</Link>
+        <Link to="/image-slider" className="text-white">Image Slider</Link>
+        <Link to="/pagination" className="text-white">Pagination</Link>
       </div>
 
       {
