@@ -9,6 +9,7 @@ import Accordian from './components/accordian/Accordian'
 import NestedComments from './components/comments/NestedComments'
 import ImageSlider from './components/imageslider/ImageSlider'
 import PaginatedComponent from './components/pagination/PaginatedComponent'
+import Autocomplete from './components/autocomplete/Autocomplete'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/nested-comments" element={<NestedComments />} />
           <Route path="/image-slider" element={<ImageSlider />} />
           <Route path="/pagination" element={<PaginatedComponent />} />
+          <Route path="/autocomplete-search" element={<Autocomplete />} />
         </Route>
       </Routes>
     </>

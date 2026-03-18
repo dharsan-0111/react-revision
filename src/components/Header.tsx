@@ -18,6 +18,7 @@ const Header = () => {
         <Link to="/nested-comments" className="text-white">Nested Comments</Link>
         <Link to="/image-slider" className="text-white">Image Slider</Link>
         <Link to="/pagination" className="text-white">Pagination</Link>
+        <Link to="/autocomplete-search" className="text-white">Autocomplete</Link>
       </div>
 
       {
